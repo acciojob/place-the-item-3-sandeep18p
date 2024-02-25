@@ -2,12 +2,13 @@
 .holder {
     display: flex; 
     flex-wrap: wrap; 
-    justify-content: space-between; 
+    justify-content: space-evenly; 
 }
 
 
-.holder > * {
+/* .holder > * {
     flex-grow: 1; 
     flex-basis: calc(33.33% - 10px); 
     margin: 5px;
 }
+ */
